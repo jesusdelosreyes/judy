@@ -12,7 +12,7 @@ import (
 var projectType string
 
 var setupTestsCmd = &cobra.Command{
-	Use:   "setupTests [projectName]",
+	Use:   "setup-tests [projectName]",
 	Short: "Creates folder structure for a new testing project",
 	Long:  `Creates a new folder structure with directories and standard files to start a new automation test project as fast as possible`,
 
