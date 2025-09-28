@@ -1,30 +1,15 @@
-\<div align="center"\>
-\<br /\>
-\<h1\>Judy 🎭\</h1\>
-\<p\>\<b\>A friendly command-line assistant for QA and SDET teams to streamline testing workflows.\</b\>\</p\>
-\<br /\>
+# Judy 🎭
 
-\</div\>
+**A friendly command-line assistant for QA and SDET teams to streamline testing workflows.**
 
-\<p align="center"\>
-\<a href="[https://github.com/your-username/judy/actions/workflows/build.yml](https://www.google.com/search?q=https://github.com/your-username/judy/actions/workflows/build.yml)"\>
-\<img src="[https://github.com/your-username/judy/actions/workflows/build.yml/badge.svg](https://www.google.com/search?q=https://github.com/your-username/judy/actions/workflows/build.yml/badge.svg)" alt="build status"\>
-\</a\>
-\<a href="[https://goreportcard.com/report/github.com/your-username/judy](https://www.google.com/search?q=https://goreportcard.com/report/github.com/your-username/judy)"\>
-\<img src="[https://goreportcard.com/badge/github.com/your-username/judy](https://www.google.com/search?q=https://goreportcard.com/badge/github.com/your-username/judy)" alt="go report card"\>
-\</a\>
-\<a href="[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)"\>
-\<img src="[https://img.shields.io/badge/License-MIT-yellow.svg](https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-yellow.svg)" alt="license"\>
-\</a\>
-\</p\>
+![build status](https://github.com/jesusdelosreyes/judy/actions/workflows/build.yml/badge.svg)
+![go report card](https://goreportcard.com/badge/github.com/jesusdelosreyes/judy)
+![license](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Overview
 
 Judy is a CLI tool built with Go that automates the repetitive tasks in the testing lifecycle. It helps you scaffold new projects, manage Dockerized test environments, and run tests from a single, consistent interface.
 
-\<div align="center"\>
-\<img src="[LINK\_TO\_YOUR\_DEMO\_GIF\_HERE]" alt="Judy CLI Demo" /\>
-\</div\>
 
 ## Table of Contents
 
