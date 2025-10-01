@@ -31,7 +31,7 @@ var destroyEnvCmd = &cobra.Command{
 			return fmt.Errorf("error executing docker-compose down: %w", err)
 		}
 
-		fmt.Println("Environment succesfully destroyed")
+		fmt.Println("Environment successfully destroyed")
 
 		return nil
 	},
