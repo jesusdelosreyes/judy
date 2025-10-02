@@ -1,0 +1,22 @@
+connection:
+  dsn: "${DATABASE_URL}" # Ej: "postgres://user:password@host:port/dbname?sslmode=disable"
+
+records:
+  - id: created_departments
+    table: departments
+    count: 5
+    fields:
+      id: { type: "uuid" }
+      name: { type: "faker", value: "department", unique: true }
+
+  - id: created_employees
+    table: employees
+    count: 20
+    fields:
+      id: { type: "uuid" }
+      first_name: { type: "faker", value: "firstName" }
+      last_name: { type: "faker", value: "lastName", nullable: true, null_probability: 0.1 }
+      email: { type: "faker", value: "email", unique: true }
+      department_id: { type: "reference", from: "created_departments", field: "id" }
+      hire_date: { type: "datetime_between", start: "2023-10-01", end: "2025-10-01" }
+      employee_code: { type: "sequence", format: "EMP-{{n}}" }
