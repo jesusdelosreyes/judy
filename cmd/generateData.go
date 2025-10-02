@@ -113,7 +113,7 @@ func (e *Engine) generateFieldValue(field Field, recordIndex int) (interface{}, 
 		return "sequence_value", nil
 
 	default:
-		return nil, fmt.Errorf("unknown field type: %s, field.Type")
+		return nil, fmt.Errorf("unknown field type: %s, field.Type", field.Type)
 	}
 }
 
