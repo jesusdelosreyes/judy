@@ -7,6 +7,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/uuid"
+	"github.com/jackc/pgx/v5"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )
