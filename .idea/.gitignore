@@ -1,8 +1,41 @@
-# Default ignored files
+# --- Binaries ---
+judy
+judy.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# --- Go ---
+
+*.out
+*.test
+*.prof
+.env
+vendor/
+
+# --- JetBrains (IntelliJ IDEA / GoLand) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Judy ---
+/test-projects/
+/temp-*/
